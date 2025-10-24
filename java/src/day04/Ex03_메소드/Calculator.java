@@ -50,13 +50,7 @@ public class Calculator {
 		}   
 	    return result;
 	    }
-	    //평균
-        //방법 1 
- //     int sum = 0;
- //     for (int i ; arr)
- //     sum += i;
- //   
-    
+
 	    public double avg (int[] arr) {
 	    	int sum = 0;
 	    	for (int i = 0; i < arr.length; i++) {

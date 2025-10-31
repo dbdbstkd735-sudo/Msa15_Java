@@ -1,0 +1,34 @@
+package day08.Ex12_Generics;
+
+//제네릭 기법으로 타입 매개변수 2개 지정
+
+public class TwoTypeGeneric<K, V> {
+	private K key;
+	private V value;
+
+	public K getKey() {
+		return key;
+	}
+
+	public void setKey(K key) {
+		this.key = key;
+	}
+
+	public V getValue() {
+		return value;
+	}
+
+	public void setValue(V value) {
+		this.value = value;
+	}
+
+	
+	//제네릭 객체 생성
+    //클래스타입<타입1,타입2> 객체명 = new 클래스<타입1,타입2>();
+   	// -객체 생성하는 클래스명 뒤의 타입은 생략가능
+  	// -new 클래스<>();
+    // KeyValue<String,Integer> kv = new KeyValue<String,integer>();
+	// K 타입만 지정하고, V타입은 지정하기 않는 방법
+	// Void : 해당 타입에는 변수를 사용하지 않도록 지정
+	
+}
